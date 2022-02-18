@@ -7,7 +7,7 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: `Baguette Boyz`,
-    description: `Welcome to the blazing fast headless demo store built with Gatsby + Shopify`,
+    description: `IcyMeta presents Baguette Boyz: A web 3, timeless, narrative-based collection of 4,824 Baguette Boyz alive and well on Ethereum Blockchain.`,
     author: `@latimer2k`,
   },
   plugins: [
