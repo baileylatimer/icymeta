@@ -6,7 +6,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Merry Christmas`,
+    title: `Baguette Boyz`,
     description: `Welcome to the blazing fast headless demo store built with Gatsby + Shopify`,
     author: `@latimer2k`,
   },
