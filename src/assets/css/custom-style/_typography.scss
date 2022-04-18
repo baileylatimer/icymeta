@@ -9,13 +9,20 @@
 }
 
 @font-face {
-  font-family: 'Roslindale';
-  src: url('../fonts/RoslindaleDisplayCondensed-Light.ttf');
+  font-family: 'Neue Montreal';
+  src: url('../fonts/NeueMontreal-Regular.otf');
 }
+
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../fonts/PPAgrandir-GrandHeavy.otf');
+}
+
 
 :root {
   // font family
-  --font-primary: 'Roslindale', sans-serif;
+  --font-primary: 'Neue Montreal', sans-serif;
+  --font-display: 'Agrandir', sans-serif;
 
   // font size
   --text-base-size: 1em; // body font-size
@@ -32,8 +39,9 @@
   --text-unit: 1em; // if not Em units → --text-unit: var(--text-base-size);
 }
 
-.font-accent {
-  font-family: 'White Oleander';
+.font-display {
+  font-family:   var(--font-display);
+  text-transform: uppercase;
 }
 
 :root,
@@ -50,7 +58,7 @@
   --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
   --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
   --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
-  --text-xxxxl: calc(var(--text-xxxl) * var(--text-scale-ratio));
+  --text-xxxxl: 8vw;
 }
 
 @supports (--css: variables) {
@@ -85,9 +93,10 @@ a {
   text-decoration: none;
   position: relative;
   display: inline-block;
+  text-transform: uppercase;
 }
 a:hover {
-  color: var(--color-contrast-high);
+  // color: var(--color-contrast-high);
 }
 
 p {

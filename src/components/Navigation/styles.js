@@ -13,11 +13,12 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: baseline;
   margin: 0 auto;
+  width: 100%;
   max-width: 1660px;
 `
 
 export const MenuLink = styled(Link)`
-
+  margin-left: var(--space-sm);
 `
 
 export const CartCounter = styled.span`

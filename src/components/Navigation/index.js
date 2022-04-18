@@ -23,10 +23,21 @@ const Navigation = ({ siteTitle }) => {
 
 	return(
 	<header className="width-100vw border-bottom position-fixed z-index-3 flex justify-center">
-			<Container>
-				<MenuLink className="glitch color-contrast-higher text-md" data-text={siteTitle} to='/'>
+			<Container class="flex justify-between width-100%">
+				<MenuLink className="glitch color-contrast-higher font-display" data-text={siteTitle} to='/'>
 					{siteTitle}
 				</MenuLink>
+        <div class="menu-right flex items-center">
+          <MenuLink className="color-contrast-higher" data-text='About' to='/about'>
+          About
+          </MenuLink>
+          <MenuLink className="color-contrast-higher" data-text='Roadmap &nbsp; Utility' to='/roadmap'>
+            Roadmap & Utility
+          </MenuLink>
+          <MenuLink className="btn btn--primary" data-text='Connect Wallet' to='/mint'>
+            Connect
+          </MenuLink>
+        </div>
 			</Container>
 	</header>
 	)

@@ -27,7 +27,7 @@ return (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <section class="project-page padding-y-xl flex flex-column items-center">
       <div class="hero">
-      <h1 class="text-xxxxl color-contrast-higher text-uppercase text-center">Under construction — Under construction — Under construction — Under construction — Under construction — Under construction —</h1>
+      <h1 class="text-xxxxl color-contrast-higher text-uppercase text-center font-display">Baguette Boyz</h1>
       </div>
     </section>
 

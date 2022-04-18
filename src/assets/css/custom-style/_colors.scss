@@ -8,8 +8,8 @@
 [data-theme='default'] {
   // main
   @include defineColorHSL(--color-primary-darker, 31, 28%, 28%);
-  @include defineColorHSL(--color-primary-dark, 31, 28%, 38%);
-  @include defineColorHSL(--color-primary, 31, 28%, 48%);
+  @include defineColorHSL(--color-primary-dark, 191, 22%, 51%);
+  @include defineColorHSL(--color-primary, 191, 82%, 87%);
   @include defineColorHSL(--color-primary-light, 31, 28%, 58%);
   @include defineColorHSL(--color-primary-lighter, 31, 28%, 68%);
 

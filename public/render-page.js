@@ -44014,7 +44014,7 @@ module.exports = Client;
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"allShopifyPage\":{\"nodes\":[{\"title\":\"Demo\",\"handle\":\"demo\"}]},\"site\":{\"siteMetadata\":{\"title\":\"Merry Christmas\"}}}}");
+module.exports = JSON.parse("{\"data\":{\"allShopifyPage\":{\"nodes\":[{\"title\":\"Demo\",\"handle\":\"demo\"}]},\"site\":{\"siteMetadata\":{\"title\":\"Baguette Boyz\"}}}}");
 
 /***/ }),
 
