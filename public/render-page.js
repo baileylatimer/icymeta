@@ -44060,11 +44060,27 @@ const Navigation = ({
   const [hasItems, quantity] = useQuantity();
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: "width-100vw border-bottom position-fixed z-index-3 flex justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["Container"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
-    className: "glitch color-contrast-higher text-md",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["Container"], {
+    class: "flex justify-between width-100%"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+    className: "glitch color-contrast-higher font-display",
     "data-text": siteTitle,
     to: "/"
-  }, siteTitle)));
+  }, siteTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "menu-right flex items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+    className: "color-contrast-higher",
+    "data-text": "About",
+    to: "/about"
+  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+    className: "color-contrast-higher",
+    "data-text": "Roadmap \xA0 Utility",
+    to: "/roadmap"
+  }, "Roadmap & Utility"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_5__["MenuLink"], {
+    className: "btn btn--primary",
+    "data-text": "Connect Wallet",
+    to: "/mint"
+  }, "Connect"))));
 };
 
 Navigation.propTypes = {
@@ -44105,10 +44121,11 @@ const Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"].div`
   justify-content: space-between;
   align-items: baseline;
   margin: 0 auto;
+  width: 100%;
   max-width: 1660px;
 `;
 const MenuLink = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"])(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"])`
-
+  margin-left: var(--space-sm);
 `;
 const CartCounter = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__["default"].span`
   background-color: black;

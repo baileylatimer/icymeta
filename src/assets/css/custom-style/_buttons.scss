@@ -81,6 +81,13 @@
 
 .btn--lg {
   font-size: 1.4em;
+  border-radius: 0 0 var(--radius-lg) 0;
+  -webkit-border-radius: 0 0 var(--radius-lg) 0;
+  -moz-border-radius: 0 0 var(--radius-lg) 0;
+  -ms-border-radius: 0 0 var(--radius-lg) 0;
+  -o-border-radius: 0 0 var(--radius-lg) 0;
+  width: 100%;
+  
 }
 
 // --------------------------------
