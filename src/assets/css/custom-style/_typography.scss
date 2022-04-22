@@ -147,39 +147,30 @@ mark {
 // (END) Global editor code
 
 // --------------------------------
-body,
+
 h1,
 h2,
 h3 {
-  font-size: 38px;
-  line-height: 1.1em;
-  font-weight: 400;
+  font-size: 34px;
 }
-@media screen and (min-width: 1920px) {
-  body,
+
+@media screen and (min-width: 960px) {
   h1,
   h2,
   h3 {
-    font-size: 32px;
+    font-size: 96px;
   }
 }
 
-@media screen and (max-width: 1920px) {
-  body,
+@media screen and (min-width: 1350px) {
   h1,
   h2,
   h3 {
-    font-size: 1.879vw;
+    font-size: 4.879vw;
   }
 }
-@media screen and (max-width: 700px) {
-  body,
-  h1,
-  h2,
-  h3 {
-    font-size: 19px;
-  }
+
+
   main {
     min-height: 0;
   }
-}

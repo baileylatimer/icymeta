@@ -14,6 +14,7 @@
     font-size: var(--text-base-size, 1em);
     font-family: var(--font-primary, sans-serif);
     color: var(--color-contrast-higher);
+    text-transform: uppercase;
   }
 
   h1,
@@ -29,7 +30,7 @@
   }
 
   h2 {
-    font-size: var(--text-xl, 1.728em);
+    font-size: var(--text-xxxl, 1.728em);
   }
 
   h3 {
