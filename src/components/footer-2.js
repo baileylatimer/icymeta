@@ -8,11 +8,9 @@ class Footer2 extends React.Component {
 
     return (
 
-      <footer class="border radius-lg padding-lg">
+      <footer class="padding-y-lg margin-top-lg">
         <div class="flex">
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a class="margin-left-sm" href="https://www.gatsbyjs.org">Gatsby</a>
+      © {new Date().getFullYear()}, Baguette Boyz
       </div>
 
   <div class="flex">
