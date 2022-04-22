@@ -11,7 +11,6 @@ import Navigation from '~/components/Navigation'
 const Wrapper = styled.div`
   margin: 0 auto;
   max-width: 1660px;
-  padding: 0px 2rem;
 `
 
 const Layout = ({ children }) => {
