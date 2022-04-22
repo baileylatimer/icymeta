@@ -44290,7 +44290,6 @@ var _public_page_data_sq_d_142939013_json__WEBPACK_IMPORTED_MODULE_0___namespace
 const Wrapper = _emotion_styled__WEBPACK_IMPORTED_MODULE_4__["default"].div`
   margin: 0 auto;
   max-width: 1660px;
-  padding: 0px 2rem;
 `;
 
 const Layout = ({
