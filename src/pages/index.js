@@ -12,6 +12,7 @@ import ScrollingText from "~/components/scrolling-text"
 import Pieces from "~/components/pieces"
 import Social from "~/components/social"
 import Faq from "~/components/faq"
+import Footer2 from "~/components/footer-2"
 import Snowflakes from "~/components/snowflakes"
 
 
@@ -42,6 +43,7 @@ return (
       <Pieces />
       <Social />
       <Faq />
+      <Footer2 />
       <Snowflakes />
 
     </section>

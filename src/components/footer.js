@@ -1,19 +1,8 @@
 import React from 'react'
 import { StaticQuery, graphql,  useStaticQuery, Link } from 'gatsby'
 
-const Footer= () => {
-  const { allShopifyPage } = useStaticQuery(
-    graphql`
-    {
-      allShopifyPage {
-        nodes {
-         
-          title
-          handle
-        }
-     
-      }
-    }`)
+class Footer extends React.Component {
+ 
   
   return (
   
