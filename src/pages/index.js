@@ -11,6 +11,7 @@ import Hero from "~/components/hero"
 import ScrollingText from "~/components/scrolling-text"
 import Pieces from "~/components/pieces"
 import Social from "~/components/social"
+import Faq from "~/components/faq"
 import Snowflakes from "~/components/snowflakes"
 
 
@@ -40,6 +41,7 @@ return (
       <ScrollingText />
       <Pieces />
       <Social />
+      <Faq />
       <Snowflakes />
 
     </section>

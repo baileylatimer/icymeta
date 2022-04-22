@@ -11,33 +11,33 @@ class Social extends React.Component {
     return (
 
       <div class="border radius-lg container margin-top-md">
-      <div class="grid border-bottom">
-        <div class="flex justify-between col-4 items-center padding-sm border-right">
-          <Slashes />
-          <h2 class="">002</h2>
-          <Slashes />
+        <div class="grid border-bottom">
+          <div class="flex justify-between col-4 items-center padding-sm border-right">
+            <Slashes />
+            <h2 class="">002</h2>
+            <Slashes />
+          </div>
+          <div class="col-8 flex justify-center padding-sm">
+            <h2 class=" text-nowrap">Join the community</h2>
+          </div>
         </div>
-        <div class="col-8 flex justify-center padding-sm">
-          <h2 class=" text-nowrap">Join the community</h2>
+        <div class="grid border-bottom">
+          <div class="col-12 border-right card">
+            
+          </div>
         </div>
-      </div>
-      <div class="grid border-bottom">
-        <div class="col-12 border-right card">
-          
-        </div>
-      </div>
-      <div class="grid border-top">
-        <div class="col-6">
-          <a class="btn btn--subtle btn--lg height-100%" href="openseas.io" target="_blank">
-          <Discord/> Discord</a>
-        </div>
-        <div class="col-6 border-left">
-          <a class="btn btn--subtle btn--lg height-100%" href="openseas.io" target="_blank">
+        <div class="grid border-top">
+          <div class="col-6">
+            <a class="btn btn--subtle btn--lg height-100%" href="openseas.io" target="_blank">
+            <Discord/> Discord</a>
+          </div>
+          <div class="col-6 border-left">
+            <a class="btn btn--subtle btn--lg height-100%" href="openseas.io" target="_blank">
 
-           <Twitter/> Twitter</a>
+            <Twitter/> Twitter</a>
+          </div>
         </div>
       </div>
-    </div>
 
     );
 

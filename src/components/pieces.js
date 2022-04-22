@@ -1,5 +1,6 @@
 import React from 'react';
 import Slashes from "~/components/elements/slashes"
+import Image from "~/components/pic"
 
 class Pieces extends React.Component {
 
@@ -25,7 +26,7 @@ class Pieces extends React.Component {
         <div class="grid border-bottom">
           <div class="flex col-6@lg col-12">
             <div class="width-50% border card">
-              
+            <Image filename="art/sample-art.png" />
             </div>
           
               <div class="width-50% border card">

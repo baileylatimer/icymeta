@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { withPrefix, Link } from "gatsby"
 import { StaticQuery, graphql } from 'gatsby'
 
 function SEO({ description, lang, meta, keywords, title }) {
@@ -60,7 +61,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          />
+          >
+
+            <script src={withPrefix('static/_1_accordion.js')} type="text/javascript" />
+          </Helmet>
         )
       }}
     />
